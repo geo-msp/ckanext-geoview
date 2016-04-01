@@ -10,7 +10,7 @@ ckan.module('geojsonpreview', function (jQuery, _) {
         weight: 2
       },
       i18n: {
-        'error': _('An error occurred: %(text)s %(error)s')
+        'error': _('Les données ne peuvent être visualisées. Elles sont disponibles pour le téléchargement par le bouton Télécharger ci-haut. Pour tout problème avec ce jeu de données, veuillez communiquez avec nous en cliquant sur "Nous joindre" au haut de la page.')
       }
     },
     initialize: function () {
