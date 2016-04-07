@@ -38,7 +38,7 @@ ckan.module('geojsonpreview', function (jQuery, _) {
       if (textStatus == 'error' && jqXHR.responseText.length) {
         this.el.html(jqXHR.responseText);
       } else {
-        this.el.html(this.i18n('error', {text: textStatus, error: errorThrown}));
+        this.el.html(this.i18n('Les données ne peuvent être visualisées. Elles sont disponibles pour le téléchargement par le bouton Télécharger ci-haut. Pour tout problème avec ce jeu de données, veuillez communiquez avec nous en cliquant sur "Nous joindre" au haut de la page.', {text: textStatus, error: errorThrown}));
       }
     },
 
